@@ -552,23 +552,10 @@ logging.error(f"Model inference failed: {error}")
 
 ---
 
-## 📞 Contato & Suporte
-
-**Data Science Team**:
-- 📧 Email: [seu email]
-- 📱 Slack: #churn-prediction
-- 🗓️ Office Hours: Terças e Quintas 14h-16h
-
 **Questions?**
 1. Cheque os notebooks (mais documentados)
 2. Revise o [relatório final](notebooks/05_relatorio_final.ipynb)
 3. Abra uma issue no repositório
-
----
-
-## 📄 Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ---
 
@@ -664,17 +651,6 @@ rf_model = load_model('models/churn_random_forest_v1.joblib')
 | `03_modelagem.ipynb` | Treinamento de modelos |
 | `04_avaliacao_modelos.ipynb` | Métricas, comparação, avaliação |
 | `05_relatorio_final.ipynb` | Relatório executivo, insights |
-
----
-
-## 🎯 Próximos Passos
-
-1. **Foco em EDA**: Entender distribuições e correlações
-2. **Tratar Dados**: Valores nulos, encoding, balanceamento
-3. **Modelar**: Treinar múltiplos modelos
-4. **Comparar**: Escolher o melhor modelo
-5. **Interpretar**: Análise de variáveis importantes
-6. **Comunicar**: Relatório estratégico final
 
 ---
 
